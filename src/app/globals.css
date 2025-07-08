@@ -24,3 +24,20 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+h1{
+  font-family: 'Playfair Display', serif;
+   color: #5c3a21; 
+  text-shadow: 1px 1px 0 #f5e7d4; 
+}
+
+button {
+  font-family: 'Playfair Display', serif;
+   
+}
+
+
+body::before {
+  background-color: transparent !important;
+}
